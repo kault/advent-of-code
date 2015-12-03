@@ -1,6 +1,5 @@
 def main():
 	""" For day one of adventofcode.com's calendar. """
-
 	with open('input.txt','r') as input_file:
 		instructions = input_file.readlines()[0]
 
@@ -10,7 +9,6 @@ def main():
 
 def part_1(instructions):
 	""" Returns Santa's final floor after following all instructions. """
-
 	return instructions.count("(") - instructions.count(")")
 
 
